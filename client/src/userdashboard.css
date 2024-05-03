@@ -1,0 +1,340 @@
+/* Add your existing styles here */
+
+.user-action-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.user-action-box {
+  width: 30%;
+
+  border: 1px solid #ccc;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-action-box:hover {
+  background-color: #e0e0e0;
+}
+
+.user-details,
+h1,
+h3 {
+  color: #ffffff; /* Set text color to white */
+  font-weight: bold; /* Make text bold */
+}
+
+.page-button {
+  width: 34px;
+  height: 34px;
+}
+
+.form-container {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 50%; /* Adjust the width for smaller screens */
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.form-container input {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #a91de1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-container button:hover {
+  background-color: #000000;
+}
+
+.user-details {
+  margin-top: 20px;
+}
+
+.user-details p {
+  margin-bottom: 10px;
+}
+
+.transaction-tab {
+  cursor: pointer;
+  padding: 10px;
+  background: linear-gradient(purple, rgba(253, 192, 255, 0.845));
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.transaction-tab:hover {
+  background-color: #1de1a9;
+}
+
+.transactions {
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.transaction-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction-icon {
+  background: linear-gradient(rgba(0, 0, 255, 0.843), purple);
+}
+
+.transaction-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align items to left and right */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  position: relative; /* Set position to relative */
+}
+
+.transaction-item .transaction-icon {
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e0e0e0; /* Default background color for the circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.transaction-item .transaction-icon svg {
+  font-size: 20px;
+}
+
+/* Update the transaction amount style */
+.transaction-item .transaction-amount {
+  font-weight: bold;
+  font-size: 30px; /* Adjust the font size as needed */
+  display: flex;
+  align-items: center;
+}
+
+.transaction-type {
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-size: 20px; /* Adjust the font size as needed */
+  flex-grow: 1; /* Allow the transaction type to take up remaining space */
+}
+
+.transaction-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.trans-no,
+.trans-date {
+  margin-top: 10px; /* Add margin-top for separation */
+}
+
+.trans-no,
+.trans-date {
+  position: absolute; /* Set position to absolute */
+}
+
+.trans-no {
+  left: 75px; /* Align account number beside the icon */
+}
+
+.trans-date {
+  left: 600px; /* Adjust the left position of the date */
+}
+
+.user-dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(0, 0, 255, 0.843), purple);
+}
+
+.chart-section {
+  display: flex;
+  justify-content: center; /* Center align content horizontally */
+  align-items: center; /* Center align content vertically */
+  margin-top: 20px;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  height: 100vh; /* Full viewport height */
+  
+}
+
+.graph-container{
+  max-width: 800px; /* Adjust max-width based on content and screen size */
+  width: 100%;
+  margin: 0 auto; /* Center align containers horizontally */
+  margin-bottom: 20px; /* Space between graph and pie chart */
+  
+}
+
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px; /* Set a fixed height for the container */
+}
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#graph{
+  width: 100%;
+  height: 400px;
+}
+
+#pie-chart {
+  width: 100%; /* Take full width of the container */
+  height: 300px; /* Set a fixed height for the chart */
+  max-width: 400px; /* Limit the maximum width to avoid excessive stretching */
+  margin: 0 auto; /* Center the chart horizontally */
+
+}
+/* Media Query for smaller screens */
+@media only screen and (max-width: 1200px) {
+  #overallTransactionCounts {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #monthlyTransactionSummary {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .graph-container,
+  .pie-chart-container {
+    max-width: 600px; /* Adjust max-width for medium-sized screens */
+  }
+}
+  
+.error-red {
+  color: red;
+}
+
+.error-black {
+  color: black;
+}
+
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .chart-section {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+  }
+
+  .container {
+    padding: 20px; /* Add padding for smaller screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+  }
+
+  .graph-container {
+    width: 100%; /* Full width on smaller screens */
+    
+  }
+  .pie-chart-container {
+    padding: 0 20px; 
+    
+  }
+  #pie-chart {
+    width: 80%; /* Set the width of the pie chart */
+    height: 80%; /* Set the height of the pie chart relative to the container */
+    max-width: 400px; /* Limit the maximum width of the pie chart */
+     /* Adjust margin-left for centering */
+    margin-right: 300px; /* Automatically adjust margin-right */
+    margin-top: auto; /* Automatically adjust margin-top */
+    margin-bottom: auto; /* Automatically adjust margin-bottom */
+  
+  }
+  h2 {
+    font-size: 20px; /* Adjust heading font size for smaller screens */
+  }
+  .user-action-boxes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-action-box {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .form-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .form-container button {
+    width: 100%;
+  }
+
+  .user-details {
+    text-align: center;
+  }
+
+  .transactions {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .transaction-item .transaction-amount {
+    margin-left: auto;
+  }
+
+  .transaction-item .transaction-type {
+    text-align: center;
+  }
+
+  .transaction-details {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .transaction-item .trans-no,
+  .transaction-item .trans-date {
+    position: static;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+}
