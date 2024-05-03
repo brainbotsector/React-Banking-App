@@ -24,13 +24,13 @@ Simple Banking System for Administrators and Account Holders. Developed Using Re
     -Schema includes tables for admins, customers (account holders), and transactions.
 
 ## Admin and User Panel 
-Admin Registration and Login:
+*Admin Registration and Login:*
 
  -Admins can register by providing their details (username, password).
  
  -After registration, admins can log in using their credentials.
  
-User Login:
+*User Login:*
 
  -Users (account holders) must log in using credentials provided by admins during account creation.
  
@@ -43,7 +43,7 @@ User Login:
  
  -Admins have the ability to create new customer accounts.
  
-Create Customer Accounts:
+*Create Customer Accounts:*
 
  -Admins can create new customer accounts by entering customer details (e.g., name, account number, initial balance).
  
@@ -67,32 +67,33 @@ Create Customer Accounts:
 ## User Dashboard- Transactions Form & Transaction History
 
  -After successful login, users gain access to their dashboard.
+ 
 *Transaction Methods:*
   Users have access to three transaction methods:
   
-  -Deposit Money: Users can deposit money into their account by specifying the amount.
+   -Deposit Money: Users can deposit money into their account by specifying the amount.
   
-  -Withdraw Money: Users can withdraw money from their account by specifying the amount.
+   -Withdraw Money: Users can withdraw money from their account by specifying the amount.
   
-  -Transfer Money: Users can transfer money to another account by specifying the recipient's account number and amount.
+   -Transfer Money: Users can transfer money to another account by specifying the recipient's account number and amount.
   
 *Transaction History:*
-  -After logging in, users can view their transaction history list.
+   -After logging in, users can view their transaction history list.
   
-  -The list displays all transactions (deposit, withdrawal, transfer) initiated by the user.
+   -The list displays all transactions (deposit, withdrawal, transfer) initiated by the user.
   
-  -Each transaction entry includes details such as type, amount, recipient (for transfers), and date/time.
+   -Each transaction entry includes details such as type, amount, recipient (for transfers), and date/time.
   
 ![b5](https://github.com/brainbotsector/React-Banking-App/assets/88769793/7df4d3d0-6f5a-4aa8-acb9-e5a7e9ff7b4d)
 ## User Dashboard- User Overall Transactions Graph
- -Users can visualize their overall transaction history through a graph.
+  -Users can visualize their overall transaction history through a graph.
  
- -The graph illustrates the total number of transactions (e.g., deposits, withdrawals, transfers) in a visualized format (e.g., bar chart).
+  -The graph illustrates the total number of transactions (e.g., deposits, withdrawals, transfers) in a visualized format (e.g., bar chart).
  
 ![b6](https://github.com/brainbotsector/React-Banking-App/assets/88769793/e130bd56-ef3e-45c4-9f95-ec80fe60d79e)
 ## User Dashboard- User Currrent Month Transactions Pie Chart
- -Users can view their current month's transaction summary through a pie chart.
+  -Users can view their current month's transaction summary through a pie chart.
  
- -The chart displays the distribution of total deposited, withdrawn, and transferred Amounts for the current month.
+  -The chart displays the distribution of total deposited, withdrawn, and transferred Amounts for the current month.
  
 ![b7](https://github.com/brainbotsector/React-Banking-App/assets/88769793/224dcc7e-ef6f-440d-a92a-c2fea58d6ba7)
