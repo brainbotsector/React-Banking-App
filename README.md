@@ -1,27 +1,5 @@
 # Simple Banking System for Administrators and Account Holders. Developed Using React.js ,Node.js, Express and MySQL  
 
-*Technologies Used:*  
-
-  Frontend (User/Admin Panel):  
-  
-    -Developed using React.js for interactive UI components. 
-    
-    -Utilizes Axios for handling HTTP requests to the backend server. 
-    
-    -Incorporates Chart.js library for graphical visualization of transaction data.  
-    
-  Backend (Node.js, Express):
-  
-    -Implements an Express.js server to handle API requests from the frontend.
-    
-    -Uses MySQL database to store and retrieve data related to usersaccounts, transactions, and admins.
-    
-  Database (MySQL):
-  
-    -Manages account and transaction data using MySQL database.
-    
-    -Schema includes tables for admins, customers (account holders), and transactions.
-
 ## Admin and User Panel 
 *Admin Registration and Login:*
 
@@ -96,3 +74,25 @@
   -The chart displays the distribution of total deposited, withdrawn, and transferred Amounts for the current month.
  
 ![b7](https://github.com/brainbotsector/React-Banking-App/assets/88769793/224dcc7e-ef6f-440d-a92a-c2fea58d6ba7)
+
+*Technologies Used:*  
+
+  Frontend (User/Admin Panel):  
+  
+    -Developed using React.js for interactive UI components. 
+    
+    -Utilizes Axios for handling HTTP requests to the backend server. 
+    
+    -Incorporates Chart.js library for graphical visualization of transaction data.  
+    
+  Backend (Node.js, Express):
+  
+    -Implements an Express.js server to handle API requests from the frontend.
+    
+    -Uses MySQL database to store and retrieve data related to usersaccounts, transactions, and admins.
+    
+  Database (MySQL):
+  
+    -Manages account and transaction data using MySQL database.
+    
+    -Schema includes tables for admins, customers (account holders), and transactions.
