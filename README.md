@@ -1,5 +1,4 @@
-# For Full Codes and Folders change the "main" branch to "master"
-Simple Banking System for Administrators and Account Holders. Developed Using React.js ,Node.js, Express and MySQL  
+# Simple Banking System for Administrators and Account Holders. Developed Using React.js ,Node.js, Express and MySQL  
 
 *Technologies Used:*  
 
