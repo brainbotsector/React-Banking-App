@@ -1,10 +1,10 @@
 # For Full Codes and Folders change the "main" branch to "master"
-Simple Banking System for Administrators and Account Holders. Developed Using React.js ,Node.js, Express and MySQL
-Technologies Used:
-  Frontend (User/Admin Panel):
-    -Developed using React.js for interactive UI components.
-    -Utilizes Axios for handling HTTP requests to the backend server.
-    -Incorporates Chart.js library for graphical visualization of transaction data.
+Simple Banking System for Administrators and Account Holders. Developed Using React.js ,Node.js, Express and MySQL  \n
+Technologies Used:  \n
+  Frontend (User/Admin Panel):  \n
+    -Developed using React.js for interactive UI components.  \n
+    -Utilizes Axios for handling HTTP requests to the backend server.  \n
+    -Incorporates Chart.js library for graphical visualization of transaction data.  \n
   Backend (Node.js, Express):
     -Implements an Express.js server to handle API requests from the frontend.
     -Uses MySQL database to store and retrieve data related to usersaccounts, transactions, and admins.
